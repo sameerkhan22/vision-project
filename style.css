@@ -1,0 +1,129 @@
+
+
+  .dropdown-item{
+    padding: 15px;
+    font-size: 13px;
+  }
+  .nav-item{
+    padding: 15px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+img:hover button{
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+} 
+
+  .col-md-3 li{
+    padding: 10px;
+    list-style: none;
+  }
+  .col-md-3 a{
+    color: white;
+    text-decoration: none;
+  }
+input{
+  color: white;
+  border: 1px solid white;
+  height: 50px;
+  padding: 10px ;
+}  
+.button{
+  color: white;
+  width: 200px;
+  height: 45px;
+background-color: cadetblue;
+border: 1px solid white;
+opacity: 0.8;
+}
+.button:hover{
+  border: 1px solid wheat;
+  opacity: 0.8;
+  transition: all 1s ease;
+  color: white;
+  background-color: olivedrab;
+}
+.foot i{
+  padding: 10px;
+}
+
+
+/* side bar styling */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  background-color: rgb(200, 200, 200);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/* side bar styling */
+
+
+.card a{
+ transition: all 2s ease;
+  color: #111;
+}
+.card a:hover{
+  text-decoration-line: underline;
+}
+.card{
+  padding: 20px;
+  margin: 10px;
+}
+.card:hover img{
+  opacity:0.7;
+}
+img{
+  transition: all 0.5s ease-in-out;
+
+}
