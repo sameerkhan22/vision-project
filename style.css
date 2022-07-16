@@ -1,5 +1,3 @@
-
-
   .dropdown-item{
     padding: 15px;
     font-size: 13px;
@@ -113,9 +111,6 @@ opacity: 0.8;
  transition: all 2s ease;
   color: #111;
 }
-.card a:hover{
-  text-decoration-line: underline;
-}
 .card{
   padding: 20px;
   margin: 10px;
@@ -125,5 +120,11 @@ opacity: 0.8;
 }
 img{
   transition: all 0.5s ease-in-out;
-
+}
+.how a{
+  text-decoration: none;
+  color: black;
+} 
+.hide{
+display: none;
 }
